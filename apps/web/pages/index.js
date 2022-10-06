@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useRef, useEffect } from "react";
 import mexp from "math-expression-evaluator";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
-import useHotKey from "../util/useHotkey";
+import useHotKey from "../util/useHotKey";
 
 const sequence = [
   "ArrowUp",
