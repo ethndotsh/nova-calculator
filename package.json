@@ -1,7 +1,6 @@
 {
   "name": "nova-calculator",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.1",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -20,6 +19,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
+  "author": "curse (contact@cursecode.me)",
+  "license": "AGPL-3.0-or-later",
   "dependencies": {},
   "packageManager": "npm@8.5.1"
 }

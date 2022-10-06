@@ -1,0 +1,26 @@
+{
+  "name": "@novacalc/web",
+  "version": "1.0.1",
+  "author": "curse (contact@cursecode.me)",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^1.0.0-beta.3",
+    "math-expression-evaluator": "^1.4.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}

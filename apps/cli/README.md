@@ -6,6 +6,9 @@ Complete basic (and not so basic) calculations from the command line.
 
 ```bash
 npm i -g @novacalc/cli
+
+# help
+ncalc help
 ```
 
 ## Usage

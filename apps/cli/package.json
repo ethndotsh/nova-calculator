@@ -1,8 +1,7 @@
 {
   "name": "@novacalc/cli",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "The CLI for Novacalc, the text-based math calculator.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +10,7 @@
   },
   "keywords": [],
   "author": "curse (contact@cursecode.me)",
-  "license": "AGPL v3",
+  "license": "AGPL-3.0-or-later",
   "dependencies": {
     "chalk": "^4.1.2",
     "math-expression-evaluator": "^1.4.0",
