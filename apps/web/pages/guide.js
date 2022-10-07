@@ -5,9 +5,11 @@ export default function Guide() {
     <>
       <Head>
         <title>Novacalc - Guide</title>
+        <meta name="description" content="Guide to novacalc" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-full">
-        <header className="px-16 py-4 mb-8 bg-yellow-400">
+        <header className="px-16 py-4 mb-4 bg-yellow-400">
           <a href="/" className="group focus:underline">
             <span className="mr-1 group-hover:mr-[0.3rem] group-hover:ml-0.5 transition-all">
               &#xAB;
@@ -15,11 +17,22 @@ export default function Guide() {
             back
           </a>
           <h1 className="text-4xl select-none lowercase">
-            <i className="font-medium">Nova</i>calc
+            <i className="font-medium">nova</i>calc
             <span className="uppercase text-2xl ml-1">guide</span>
           </h1>
         </header>
         <section className="px-16">
+          <p className="mb-5">
+            Learn how to use{" "}
+            <span className="select-none">
+              <i className="font-medium">nova</i>calc
+            </span>{" "}
+            like a professional.
+            <p className="text-xs opacity-50">
+              Parentheses are not required for functions e.g. root4 is still
+              valid
+            </p>
+          </p>
           <div className="overflow-x-auto relative">
             <table className="border w-full text-sm text-left text-gray-500 dark:text-gray-400">
               <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -57,7 +70,7 @@ export default function Guide() {
                     <strong>/</strong>
                   </td>
                   <td className="py-4 px-6">
-                    Division operator eg 3/2 results 1.5
+                    Division operator eg. 3/2 results 1.5
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -153,7 +166,7 @@ export default function Guide() {
                     <strong>!</strong>
                   </td>
                   <td className="py-4 px-6">
-                    factorial operator eg. 4! returns 24
+                    Factorial operator eg. 4! returns 24
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -161,7 +174,7 @@ export default function Guide() {
                     <strong>log</strong>
                   </td>
                   <td className="py-4 px-6">
-                    logarithmic function with base 10 eg. log 1000 returns 3
+                    Logarithmic function with base 10 eg. log(1000) returns 3
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -169,7 +182,7 @@ export default function Guide() {
                     <strong>ln</strong>
                   </td>
                   <td className="py-4 px-6">
-                    natural log function with base e eg. ln 2 returns .3010
+                    Natural log function with base e eg. ln(2) returns .3010
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -177,7 +190,7 @@ export default function Guide() {
                     <strong>pow</strong>
                   </td>
                   <td className="py-4 px-6">
-                    power function with two operator pow(2,3) returns 8
+                    Power function with two operator eg. pow(2,3) returns 8
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -185,7 +198,7 @@ export default function Guide() {
                     <strong>^</strong>
                   </td>
                   <td className="py-4 px-6">
-                    power operator eg. 2^3 returns 8
+                    Power operator eg. 2^3 returns 8
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -193,7 +206,7 @@ export default function Guide() {
                     <strong>root</strong>
                   </td>
                   <td className="py-4 px-6">
-                    underroot function root 4 returns 2
+                    Square root function eg. root(4) returns 2
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
