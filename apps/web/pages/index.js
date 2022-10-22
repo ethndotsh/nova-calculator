@@ -95,7 +95,11 @@ export default function Home() {
     <div className="dark:bg-gray-900">
       <Head>
         <title>Novacalc</title>
-
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6149850985266004"
+          crossorigin="anonymous"
+        ></script>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
