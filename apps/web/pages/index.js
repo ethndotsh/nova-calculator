@@ -65,8 +65,11 @@ export default function Home() {
 
   const handleExpression = (e) => {
     e.preventDefault();
+    
+    const expression = e.target.expression.value.toLowerCase();
+    
     try {
-      if (e.target.expression.value === "upupdowndownleftrightleftrightba") {
+      if (expression === "upupdowndownleftrightleftrightba") {
         setKeysPress(true);
         inputRef.current.value = "";
         return;
@@ -74,8 +77,8 @@ export default function Home() {
       setExpressions([
         ...expressions,
         {
-          result: mexp.eval(e.target.expression.value),
-          expression: e.target.expression.value,
+          result: mexp.eval(expression),
+          expression,
         },
       ]);
       inputRef.current.value = "";
@@ -85,7 +88,7 @@ export default function Home() {
     } catch (error) {
       setExpressions([
         ...expressions,
-        { result: "Error", expression: e.target.expression.value },
+        { result: "Error", expression },
       ]);
       inputRef.current.value = "";
     }
